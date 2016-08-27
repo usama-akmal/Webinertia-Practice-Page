@@ -11,6 +11,10 @@ p{
 nav{
   height: 85px;
   width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  margin-top: -85px;
+  z-index: 5;
 }
 .mainContainor{
   width: 1200px;
@@ -53,6 +57,9 @@ header{
   background-image: url("img/header.jpg");
   background-position: center;
 }
+header .mainContainor{
+  margin-top: 85px;
+}
 .title{
   color: #FFFFFF;
   font-family: arial;
@@ -66,7 +73,7 @@ header{
   line-height: 25px;
 }
 .title h3{
-  font-size: 40px;
+  font-size: 20px;
   line-height: 20px;
 }
 .title #infoButton{
@@ -365,6 +372,10 @@ section h1{
 .slide{
   width: 800px;
   margin: 0 auto;
+}
+.slide center img{
+  margin-top: 20px;
+  border-radius: 50%;
 }
 .slide p{
   color: #6e6e6e;
